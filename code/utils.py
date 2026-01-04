@@ -51,7 +51,7 @@ def save_and_display(fig, filename):
     """
     try:
         # Guardamos en PNG porque matplotlib no suele guardar en HTML interactivo
-        fig.savefig(f"../plots/{filename}.png", dpi=300, bbox_inches='tight')
+        # fig.savefig(f"../plots/{filename}.png", dpi=300, bbox_inches='tight')
         print(f"Imagen guardada como: {filename}.png")
     except Exception as e:
         print(f"No se pudo guardar la imagen: {e}")
