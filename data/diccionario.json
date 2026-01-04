@@ -1,0 +1,64 @@
+{
+    "binary_loan_status": {
+        "Default": 0,
+        "No default": 1
+    },
+    "term": {
+        "36 months": 0,
+        "60 months": 1
+    },
+    "grade": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3,
+        "E": 4,
+        "F": 5,
+        "G": 6
+    },
+    "home_ownership": {
+        "mortgage": 0,
+        "other": 1,
+        "own": 2,
+        "rent": 3
+    },
+    "verification_status": {
+        "Not Verified": 0,
+        "Source Verified": 1,
+        "Verified": 2
+    },
+    "purpose": {
+        "car": 0,
+        "credit_card": 1,
+        "debt_consolidation": 2,
+        "educational": 3,
+        "home_improvement": 4,
+        "house": 5,
+        "major_purchase": 6,
+        "medical": 7,
+        "moving": 8,
+        "other": 9,
+        "renewable_energy": 10,
+        "small_business": 11,
+        "vacation": 12,
+        "wedding": 13
+    },
+    "addr_state": {
+        "Midwest": 0,
+        "Northeast": 1,
+        "South": 2,
+        "West": 3
+    },
+    "initial_list_status": {
+        "f": 0,
+        "w": 1
+    },
+    "application_type": {
+        "Individual": 0,
+        "Joint App": 1
+    },
+    "debt_settlement_flag": {
+        "N": 0,
+        "Y": 1
+    }
+}
