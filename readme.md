@@ -1,4 +1,4 @@
-# Deconstructing Credit Risk: A Bayesian Network Approach [cite: 1]
+# Deconstructing Credit Risk: A Bayesian Network Approach
 
 This project proposes the use of Bayesian Networks (BNs) as a framework for structural interpretation and model auditing in high-dimensional tabular data, moving beyond the traditional "black-box" predictive paradigm. The analysis was developed by Sergio Beamonte González for the Artificial Intelligence Department at UPM.
 
@@ -31,3 +31,4 @@ The modeling pipeline includes the following phases:
 * **Behavior Trumps Solvency**: A structurally refined model reveals that default risk is structurally determined by loan characteristics (term) and the borrower's recent volatility (such as opening multiple accounts in a short window). It is not driven linearly by income or debt-to-income (DTI) ratios.
 
 * **Model Auditing**: Bayesian Networks proved invaluable for interpretability. They successfully identified data leakage in the dataset (post-default variables) and allowed for the visualization of the causal chain from income to credit limits.
+
